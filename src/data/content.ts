@@ -13,7 +13,6 @@ export const blogs = [
   { name: "Introduction to Next.js for Full-Stack Development", link: "/blogs/nextjs-fullstack", desc: "A beginner-friendly guide to building full-stack applications with Next.js." }
 ];
 
-```ts
 export const blogData: { [key: string]: { title: string; content: string } } = {
   "machine-learning-bias": {
     title: "Understanding Machine Learning Bias",
@@ -233,4 +232,3 @@ Next.js offers a streamlined, powerful approach to building full-stack React app
 Ready to dive in? Install Next.js, experiment with its data fetching methods, and explore how it can simplify your stack. You’ll soon discover why Next.js is at the forefront of modern web development.`
   }
 };
-```
