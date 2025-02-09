@@ -1,12 +1,9 @@
 import { notFound } from "next/navigation";
 import { blogData } from "@/data/content";
 
-export function generateStaticParams() {
-  return Object.keys(blogData).map((slug) => ({ slug }));
-}
-
-export default function BlogPost({ params }: { params: { slug: string } }) {
-  const blog = blogData[params.slug];
+export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await params; // Unwrap the params Promise
+  const blog = blogData[resolvedParams.slug];
 
   if (!blog) return notFound();
 
