@@ -1,10 +1,10 @@
 export const techStack = "C++, Java, JavaScript, TypeScript, Python, React.js, Next.js, Node.js, Express, Redux Toolkit, GraphQL, MongoDB, MySQL, Postgres, Docker, Kubernetes, Git, Machine Learning, Pytorch";
 
 export const projects = [
-  { name: "Collaborative Whiteboard", link: "https://github.com/aksh-ay06/excalidraw", desc: "Real-time collaborative drawing application with Next.js." },
-  { name: "Food Ordering App", link: "https://github.com/aksh-ay06/swiggy-clone", desc: "A Swiggy clone built with React and Redux for optimized performance." },
-  { name: "Threads Clone", link: "https://github.com/aksh-ay06/threads", desc: "A social media application built with Next.js and MongoDB." },
-  { name: "Predicting Cancer Risk", link: "https://github.com/aksh-ay06/cancer-risk-prediction", desc: "Machine learning model combining health survey data and pollution metrics to predict cancer risk." }
+  { name: "Collaborative Whiteboard", link: "https://excalidraw-aksh-ay06.vercel.app/", desc: "Real-time collaborative drawing application with Next.js, Socket.io, ExpressJs and Node." },
+  { name: "Travel Blog", link: "https://travel-blog-34mb.onrender.com/", desc: "A full-stack web application that lets users create, edit, and manage personalized travel blogs with user authentication (signup/login) and secure session management." },
+  { name: "Content Based Movie Recommendation System", link: "https://github.com/aksh-ay06/movie-recommender", desc: "A Content Based Movie Recommendation with serialized model to seemless deploy and reuse the recommendation system in production envrionments." },
+  { name: "Automated Defect Detection System for Quality Assurance in Manufacturing", link: "https://github.com/aksh-ay06/Automated-Defect-Detection-System-for-Quality-Assurance-in-Manufacturing", desc: " The project aims to automate defect detection in cell phone manufacturing using machine learning (ML) and deep learning (DL) models, adhering to the CRISP-DM framework." }
 ];
 
 export const blogs = [
